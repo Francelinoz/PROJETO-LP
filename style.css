@@ -1,0 +1,970 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Freehand&family=Handlee&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@305&family=Patrick+Hand+SC&family=Roboto+Mono:ital,wght@0,341;1,341&family=Shrikhand&display=swap');
+
+:root{
+    --azul: #1A7fbd;
+    --azulLight: #A4DCFF;
+    --preto: #000;
+    --branco: #fff;
+}
+*{
+    font-family: "Noto Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    
+}
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    margin: 0;
+    background: var(--azul);
+}
+nav{
+    margin: 0;
+    background-color: var(--azul);
+}
+.nav-bar{
+    display: flex;
+    align-items: center;
+
+    border: 5px solid var(--branco);
+    border-image: linear-gradient(to right,var(--azul) 5%, #fff , var(--azul)) ;
+    border-image-slice: 20;
+
+    border-top: transparent;
+    border-left: transparent;
+    border-bottom-width: 1px;
+
+}
+
+.logo{
+    width: 200px;
+    margin: 20px;
+    padding-left: 400px;
+}
+.links{
+    padding-left: 80px;
+    
+}
+.ancora-1{
+    padding-right: 40px;
+    text-decoration: none;
+
+    font-weight: 300;
+    
+    color: var(--branco);
+    
+}
+.ancora-2{
+    margin-left: 60px;
+    padding: 15px;
+    text-decoration: none;
+    
+    color: var(--branco);
+
+    background: var(--preto);
+    border-radius: 8px;
+
+    transition: .4s;
+}
+.ancora-2:hover{
+    background: var(--azulLight);
+    color: var(--azul);
+    
+
+
+}
+.conteudo1{
+    display: flex;
+}
+.img-banner{
+    background-image: url('Pack Netuno/Assets_Netuno/bannertopo.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: fixed;
+
+    width: 1300px;
+    height: 1000px;
+}
+/* Formulário*/
+.form{
+    background-color: var(--branco);
+    
+    height: 920px;
+    margin-top: 150px;
+    margin-left: -200px;
+    padding: 20px;
+
+    border-radius: 10px;
+    box-shadow: 0px 5px 20px rgba(255, 255, 255, 0.192);
+
+    border: 1px solid var(--branco);
+    border-image: linear-gradient(to right,var(--azul) 40%, #fff 60% , var(--azul)) ;
+    border-image-slice: 20;
+
+    
+    border-left: transparent;
+    border-bottom-width: 1px;
+
+
+    
+}
+.titulo-form{
+    color: rgba(173, 173, 173, 0.541);
+    font-size: 20px;
+    font-weight: 500;
+
+    padding-left: 20px;
+}
+.paragrafo-form{
+    color: var(--azul);
+    font-size: 14px;
+    font-weight: 600;
+
+    padding-left: 20px;
+}
+
+
+input {
+    border: 1px solid rgba(119, 119, 119, 0.589);
+    outline: none;
+    box-sizing: border-box;
+ 
+
+    border-radius: 8px;
+    padding-left: 60px;
+    width: 355px;
+    height: 45px;
+}
+
+.icon-1{
+    position: absolute;
+    content: url('../PROJETO-LP/Pack Netuno/Assets_Netuno/icones/user.png');
+
+    top: 345px;
+    left: 1132px;
+}
+.icon-2{
+    position: absolute;
+    content: url('../PROJETO-LP/Pack Netuno/Assets_Netuno/icones/mail.png');
+
+    top: 419px;
+    left: 1131px;
+}
+.icon-3{
+    position: absolute;
+    content: url('../PROJETO-LP/Pack Netuno/Assets_Netuno/icones/state.png');
+
+    top: 480px;
+    left: 1132px;
+}
+
+.form-check-box{
+    background-color: var(--azul);
+
+    margin: 40px -20px;
+    
+    padding: 20px;
+    width: 480px;
+    height: 220px;
+
+    color: var(--branco);
+    
+}
+.check-box{
+    width: 280px;
+    height: 100px;
+
+    display:flex ;
+
+}
+#inlineCheckbox1 {
+    content: '';
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    border-radius: 6px;
+
+    margin-right: 5px;
+    border: 2px solid gray;
+    margin-bottom: -2px;
+    width: 25px;
+    background-color: transparent;
+
+}
+#inlineCheckbox2{
+    width: 25px;
+    content: '';
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    border-radius: 3px;
+    margin-right: 5px;
+    border: 2px solid gray;
+    margin-bottom: -2px;
+
+}
+
+.form-check-label{
+    margin-right: 20px;
+    
+}
+.check-box-flex{
+    display: flex;
+    margin-bottom: 40px;
+    width: 200px;
+   
+}
+.form-check-box-2{
+    padding-left: 20px;
+    
+    border: 5px solid var(--branco);
+    border-image: linear-gradient(to right,var(--branco) 5%, #8d8d8d , var(--branco)) ;
+    border-image-slice: 20;
+
+    border-top: transparent;
+    border-left: transparent;
+    border-right: transparent;
+    border-bottom-width: 1px;
+}
+     
+.check-box-2{
+    color: var(--azul);
+
+    font-size: 14px;
+    font-weight: 600;
+
+    
+
+}
+#not-yes{
+    color: #777777c7;
+    width: 20px;
+   
+}
+
+/* BOTÃO ENVIAR */
+.button{
+    text-align: center;
+}
+
+.paragrafo-button{
+    color: var(--azul);
+
+    margin-top: 2px;
+
+    font-size: 14px;
+    font-weight: 600;
+}
+.paragrafo-button-inf{
+    font-size: 8px;
+    font-weight: 600;
+
+    width: 240px;
+    margin: auto;
+
+    color: #8d8d8d;
+}
+button{
+    margin: 20px;
+    background-color: var(--azul);
+    padding: 20px;
+
+    width: 400px;
+
+    border: transparent;
+    color: var(--branco);
+
+    border-radius: 6px;
+
+    transition: .4s;
+    
+}
+button:hover{
+    cursor: pointer;
+    background-color: #17547a;
+
+    box-shadow: 0px 5px 15px rgba(185, 185, 185, 0.418);
+}
+#anc-b{
+    text-decoration: none;
+    color: #1A7fbd;
+    font-weight: bold;
+
+}
+
+/* Conteudo 2*/
+
+.conteudo2{
+    display: flex;
+    margin: 150px;
+
+    margin-top: 200px;
+    height: 1000px;
+}
+.img-dev{
+    background-image: url('Pack Netuno/Assets_Netuno/dev.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    width: 1931px;
+    height: 764px;
+
+
+}
+#projeto{
+    margin-top: 100px;
+    
+}
+#art-1{
+    margin-left: 60px;
+    margin-right: 80px;
+    padding: 20px;
+    background-color: transparent;
+
+}
+.titulo-projeto{
+    color: var(--azulLight);
+
+    font-size: 40px;
+    font-weight: 600;
+}
+.p1{
+    color: var(--branco);
+
+    font-weight: 300;
+    width: 500px;
+    background-color: transparent;
+    
+}
+
+.p2{
+    color: var(--branco);
+
+    font-weight: 600;
+    width: 500px;
+    background-color: transparent;
+
+
+}
+
+/* CONTEUDO 3*/
+.cont-3{
+    display: flex;
+    
+
+    padding: 40px;
+    padding-bottom: 0px;
+    margin: 50px;
+    margin-left: 200px;
+}
+
+.conteudo3{
+    background: var(--branco);
+    height: 1400px;
+    align-items: center;
+    
+
+    
+}
+   
+.img-cont{
+    background-image: url('Pack Netuno/Assets_Netuno/Container2.png');
+    background-repeat: no-repeat;
+    background-size: 540px;
+    
+
+    margin-left: 200px;
+
+    width: 626px;
+    height: 709px;
+}
+.titulo-art2{
+
+    background: -webkit-linear-gradient(to right, var(--azul), var(--azulLight) 40%);
+    background: linear-gradient(to right, var(--azul), var(--azulLight) 40%) ;
+
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+    font-weight: 800;
+    font-size: 40px;
+
+} 
+#art-2{
+    
+
+    margin-top: 100px;
+    margin-left: 10px;
+
+    padding: 20px;
+
+
+}
+/* Textos Conteudo */
+
+.p1-art2{
+    width: 380px;
+    font-weight: 800;
+
+    border: 5px solid var(--branco);
+    border-image: linear-gradient(to right,var(--branco) 5%, #8d8d8d , var(--branco)) ;
+    border-image-slice: 20;
+
+    border-top: transparent;
+    border-left: transparent;
+    border-right: transparent;
+    border-bottom-width: 1px;
+
+    padding-bottom: 30px;
+
+}
+.p2-art2{
+    width: 380px;
+    padding-right: 100px;
+    
+
+}
+.p3-art2{
+    width: 380px;
+    font-weight: 800;
+
+}
+
+/* cards*/
+
+.cards{
+    display: flex;
+
+    
+    padding: 40px;
+    padding-left: 200px;
+    margin-left: 255px;
+    margin-top: -140px;
+
+    text-align: center;
+}
+.card-1{
+    padding: 20px;
+    background: var(--branco);
+
+    width: 300px;
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.459);
+
+    border-radius: 8px;
+    transition: .4s;
+}
+.card-1:hover{
+    cursor: pointer;
+    background: rgb(211, 211, 211);
+
+    transform: translateY(-10%);
+}
+
+.card-1 > h2{
+    font-weight: 700;
+    font-size: 30px;
+}
+.card-1 > p {
+    font-weight: 500;
+}
+.card-2{
+    padding: 20px;
+    background: var(--branco);
+
+    margin-left: 20px;
+    margin-right: 20px;
+
+    width: 300px;
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.459);
+
+    border-radius: 8px;
+    transition: .4s;
+}
+.card-2:hover{
+    cursor: pointer;
+    background: rgb(211, 211, 211);
+
+    transform: translateY(-10%);
+}
+.card-2 > h2{
+    font-weight: 700;
+    font-size: 30px;
+}
+.card-2 > p {
+    font-weight: 500;
+}
+
+.card-3{
+    padding: 20px;
+    background: var(--branco);
+
+   
+    margin-right: 20px;
+
+    width: 300px;
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.459);
+
+    border-radius: 8px;
+    transition: .4s;
+}
+.card-3:hover{
+    cursor: pointer;
+    background: rgb(211, 211, 211);
+
+    
+    transform: translateY(-10%);
+}
+.card-3 > h2{
+    font-weight: 700;
+    font-size: 30px;
+}
+.card-3 > p {
+    font-weight: 500;
+}
+
+/* conteudo 4 */
+
+.conteudo4{
+    margin-top: -60px;
+    background: var(--branco);
+    height: 1100px ;
+}
+.titulo-4{
+    border: 5px solid var(--branco);
+    border-image: linear-gradient(to right,var(--branco) 5%, #bebebeb7 , var(--branco)) ;
+    border-image-slice: 20;
+
+    border-bottom: transparent;
+    border-left: transparent;
+    border-right: transparent;
+    border-top-width: 1px;
+
+    text-align: center;
+
+    padding-top: 60px;
+
+    background: -webkit-linear-gradient(to right, var(--azul), var(--azulLight) 40%);
+    background: linear-gradient(to right, var(--azul), var(--azulLight) 40%) ;
+
+    -webkit-background-clip : text;
+    -webkit-text-fill-color: transparent;
+
+    font-weight: 800;
+    font-size: 40px;
+
+    
+}
+/* CARDS */
+.cards-jornada{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    
+}
+
+.inf-1{
+    background: var(--azul);
+    border-radius: 8px;
+    padding: 20px;
+
+    color: var(--branco);
+    text-align: center;
+
+    margin: 20px;
+    text-indent: 80px;
+
+    height: 80px;
+
+    border: 1px solid rgba(255, 255, 255, 0.925);
+    box-shadow: 0px 0px 25px rgba(77, 77, 77, 0.562);
+
+}
+.pp-inf{
+    width: 350px;
+}
+/* icons */
+.icon{
+    background: var(--branco);
+    padding: 10px;
+    border-radius: 8px;
+    background-size: 5px;
+  
+}
+#p1{
+    position: absolute;
+    top: 4104px;
+    left: 320px;
+}
+#p2{
+    position: absolute;
+    top: 4104px;
+    left: 750px;
+}
+#p3{
+    position: absolute;
+    top: 4104px;
+    left: 1180px;
+}
+#p4{
+    position: absolute;
+    top: 4265px;
+    left: 322px;
+
+    
+}
+#p5{
+    position: absolute;
+    top: 4273px;
+    left: 752px;
+    padding-bottom: 20px;
+}
+
+#p6{
+    position: absolute;
+    top: 4267px;
+    left: 1184px;
+}
+#p7{
+    position: absolute;
+    top: 4532px;
+    left: 1168px;
+
+    transition: .5s;
+}
+/*********************************************/
+.inf-2{
+    background: var(--azul);
+    border-radius: 8px;
+    padding: 20px;
+
+    color: var(--branco);
+    text-align: center;
+
+    margin: 20px;
+    text-indent: 80px;
+
+    border: 1px solid rgba(255, 255, 255, 0.925);
+    box-shadow: 0px 0px 25px rgba(77, 77, 77, 0.562);
+
+}
+.inf-3{
+    background: var(--azul);
+    border-radius: 8px;
+
+    padding: 20px;
+
+    margin: 20px;
+
+    color: var(--branco);
+    text-align: center;
+    text-indent: 80px;
+
+    border: 1px solid rgba(255, 255, 255, 0.925);
+    box-shadow: 0px 0px 25px rgba(77, 77, 77, 0.562);
+
+}
+.cards-jornada-pt2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+.inf-4{
+    background: var(--azul);
+    border-radius: 8px;
+    padding: 20px;
+
+    color: var(--branco);
+    text-align: center;
+
+    margin: 20px;
+    text-indent: 80px;
+
+    height: 80px;
+
+    border: 1px solid rgba(255, 255, 255, 0.925);
+    box-shadow: 0px 0px 25px rgba(77, 77, 77, 0.562);
+
+}
+.inf-5{
+    background: var(--azul);
+    border-radius: 8px;
+    padding: 20px;
+
+    color: var(--branco);
+    text-align: center;
+
+    margin: 20px;
+    text-indent: 80px;
+
+    height: 80px;
+
+    border: 1px solid rgba(255, 255, 255, 0.925);
+    box-shadow: 0px 0px 25px rgba(77, 77, 77, 0.562);
+
+}
+.inf-6{
+    background: var(--azul);
+    border-radius: 8px;
+    padding: 20px;
+
+    color: var(--branco);
+    text-align: center;
+
+    margin: 20px;
+    text-indent: 80px;
+
+    height: 80px;
+
+    border: 1px solid rgba(255, 255, 255, 0.925);
+    box-shadow: 0px 0px 25px rgba(77, 77, 77, 0.562);
+
+}
+/* processo seletivo */
+
+.processo-seletivo{
+    text-align: center;
+    padding-top: 30px;
+    padding-right: 40px;
+    padding-bottom: 30px;
+    padding-left: 10px;
+
+    font-size: 20px;
+    font-weight: 600;
+
+    width: 600px;
+
+    border-radius: 8px;
+
+    background: var(--preto);
+    color: var(--branco);
+
+    margin-left: 32%;
+    margin-top: 6%;
+    transition: .5s;
+}
+.processo-seletivo:hover{
+    
+    padding-top: 35px;
+    padding-right: 45px;
+    padding-bottom: 35px;
+    padding-left: 15px;
+
+    width: 620px;
+    font-size: 22px;
+
+    box-shadow: 0px 0px 30px rgba(77, 77, 77, 0.719);
+    
+   
+}
+
+.ancora-seletivo{
+    text-decoration: none;
+    color: var(--azulLight);
+
+    font-weight: 500;
+}
+.border{
+    background-image: url('Pack Netuno/Assets_Netuno/Elements/Vector1.png');
+    background-repeat: no-repeat;
+    background-size: 250px;
+
+    width: 760px;
+    height: 400px;
+
+    position: absolute;
+    top: 4620px;
+    left: 800px;
+}
+
+/* CONTEUDO 5 */
+
+.conteudo5{
+    text-align: center;
+    color: var(--branco);
+
+    background-image: linear-gradient(to top, var(--azul) 60%, var(--azul) 30%, rgb(99, 172, 255) );
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top left;
+
+    margin-top: -60px;
+
+    height: 900px;
+}
+.titulo-5{
+    padding-top: 60px;
+
+    font-size: 60px;
+    font-weight: 600;
+}
+/* cards Objetivos */
+.card-obj{
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+    margin-top: 140px;
+}
+
+/* Cards */
+.msg-1{
+    background: rgba(255, 255, 255, 0.644);
+    padding: 40px;
+
+    border-radius: 16px;
+    color: #000;
+    margin: 20px;
+
+    width: 400px;
+    border: 1px solid var(--azulLight);
+
+    transition: .6s;
+    box-shadow: 0px 0px 35px rgba(0, 0, 0, 0.452);
+
+}
+.msg-1:hover{
+    background: white;
+    cursor: pointer;
+}
+.msg-2{
+    background: rgba(255, 255, 255, 0.644);
+    padding: 40px;
+
+    border-radius: 16px;
+    color: #000;
+    margin: 20px;
+
+    width: 400px;
+
+    border: 1px solid var(--azulLight);
+
+    transition: .6s;
+
+    box-shadow: 0px 0px 35px rgba(0, 0, 0, 0.452);
+}
+.msg-2:hover{
+    background: white;
+    cursor: pointer;
+}
+.msg-3{
+    background: rgba(255, 255, 255, 0.644);
+    padding: 40px;
+
+    border-radius: 16px;
+    color: #000;
+    margin: 20px;
+
+    width: 400px;
+
+    border: 1px solid var(--azulLight);
+
+    transition: .6s;
+
+    box-shadow: 0px 0px 35px rgba(0, 0, 0, 0.452);
+}
+.msg-3:hover{
+    background: white;
+    cursor: pointer;
+}
+
+/* titulos */
+.tt-card{
+    font-size: 40px;
+    font-weight: 500;
+}
+
+/* paragrafos */
+.par-card{
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+
+    width: 250px;
+    padding-left: 80px;
+    padding-bottom: 20px;
+    
+}
+
+/* rodapé */
+footer{
+    background: var(--preto);
+    margin-bottom: -20px;
+
+    padding: 60px;
+    color: var(--branco);
+
+    display: flex;
+}
+/* sessão 1 */
+.sessao-1{
+    padding: 40px;
+    margin-left: 200px;
+
+    width: 520px;
+}
+.logo-footer{
+    max-width:200px;
+    max-height:150px;
+    width: auto;
+    height: auto;
+
+}
+.social{
+    margin-top: 20px;
+}
+.fb{
+    max-width:20px;
+    max-height:20px;
+    width: auto;
+    height: auto;
+
+    margin-right: 20px;
+}
+.ig{
+    max-width:20px;
+    max-height:20px;
+    width: auto;
+    height: auto;
+
+    margin-right: 20px;
+}
+.in{
+    max-width:20px;
+    max-height:20px;
+    width: auto;
+    height: auto;
+}
+
+.autor{
+    text-decoration: none;
+    color: var(--branco);
+
+    font-weight: 300;
+    transition: .6s;
+}
+.autor:hover{
+    border: 1px solid white;
+    padding: 10px;
+    text-align: center;
+    
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: 800;
+    transform: translate(3px , 3px);
+
+    box-shadow: 0px 0px 30px rgba(255, 255, 255, 0.397);
+    text-shadow: 0px 0px 8px rgba(161, 161, 161, 0.308);
+}
+.pp-footer{
+    font-weight: 200;
+}
+/* SESSÃO 2 */

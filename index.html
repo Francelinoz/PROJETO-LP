@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 1 - Netuno LP</title>
+    <link rel="shortcut icon" href="./Pack Netuno/Assets_Netuno/icones/icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="nav-bar">
+                <img src="./Pack Netuno/Assets_Netuno/assets/logo.png" alt="" class="logo">
+                <div class="links">
+
+                    <a href="#projeto" class="ancora-1">O Projeto</a>
+                    <a href="#problema" class="ancora-1">O Problema</a>
+                    <a href="#jornada" class="ancora-1">Sua Jornada</a>
+                    <a href="#objetivos" class="ancora-1">Objetivos</a>
+                    <a href="#cadastro" class="ancora-2">Processo Seletivo</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main class="mid">
+        <div class="conteudo1">
+            <div class="img-banner">
+            </div>
+            <div class="form">
+                
+                <form action="/processar" method="post" autocomplete="off" id="cadastro">
+                    <h1 class="titulo-form">
+                        Formulário de Cadastro
+                    </h1>
+                    <p class="paragrafo-form">Preencha seus dados</p>
+                    <div class="container">
+                        <div class="input-wrapper-1">
+                            <label for="nome"></label>
+                            <input type="text" id="nome" name="nome" required  placeholder="Nome Completo*"> 
+                            <i class="icon-1"></i>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="container2">
+                        <div class="input-wrapper-2">
+                            <label for="email"></label>
+                            <input type="email" id="email" name="email" required placeholder="E-mail">
+                            <i class="icon-2"></i>
+                            
+                        </div>
+                    </div>
+                    <br>
+                    <div class="container3">
+                        <div class="input-wrapper-3">
+                            <label for="estado"></label>
+                            <input type="text" id="estado" name="estado" required placeholder="Estado">
+                            <i class="icon-3"></i>
+                        </div>
+                    </div>
+                    <div class="form-check-box">
+                        <p class="paragrafo-check-box">Conhecimento de Programação*</p>
+                        <div class="check-box">
+                            <div class="check-box1">
+                                <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                                <label class="form-check-label" for="inlineCheckbox1">HTML</label>
+                              </div>
+
+                              <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+                                <label class="form-check-label" for="inlineCheckbox2">CSS</label>
+                              </div>
+
+                              <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                                <label class="form-check-label" for="inlineCheckbox1">JavaScript</label>
+                              </div>
+
+                              <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+                                <label class="form-check-label" for="inlineCheckbox2">PHP</label>
+                              </div>
+
+                              <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                                <label class="form-check-label" for="inlineCheckbox1">.NET</label>
+                              </div>
+
+                              <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+                                <label class="form-check-label" for="inlineCheckbox2">Vue.JS</label>
+                              </div>
+
+                            </div>
+                            <div class="check-box2">
+                                <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                                <label class="form-check-label" for="inlineCheckbox1">ReactJS</label>
+                              </div>
+
+                              <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+                                <label class="form-check-label" for="inlineCheckbox2">React Native</label>
+                              </div>
+
+                              <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                                <label class="form-check-label" for="inlineCheckbox1">Node</label>
+                              </div>
+
+                              <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+                                <label class="form-check-label" for="inlineCheckbox2">Python</label>
+                              </div>
+
+                              <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                                <label class="form-check-label" for="inlineCheckbox1">Flutter</label>
+                              </div>
+
+                              <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+                                <label class="form-check-label" for="inlineCheckbox2">Outras</label>
+                              </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                    <div class="form-check-box-2">
+                        <p class="check-box-2">Já trabalhou com desenvolvimento?</p>
+                        <div class="check-box-flex">
+                            <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="checkbox" id="not-yes" value="option1">
+                            <label class="form-check-label" for="inlineCheckbox1">Não</label>
+                          </div>
+
+                          <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="checkbox" id="not-yes" value="option2">
+                            <label class="form-check-label" for="inlineCheckbox2">Sim</label>
+                          </div>
+                        </div>
+                        
+                    </div>
+                   
+                    <br>
+                    <div class="button">
+                        <p class="paragrafo-button">(*)Campos obrigatórios</p>
+                        <button type="submit">Enviar</button>
+                        <p class="paragrafo-button-inf">Ao clicar em enviar, você concorda com todos os termos de uso de dados em <a href="#" id="anc-b">politica de privacidade</a>.</p>
+                    </div>
+                    
+                </form>
+
+            </div>
+
+        </div>
+        <div class="conteudo2">
+            <div class="img-dev">
+
+            </div> 
+            <section id="projeto">
+                <article id="art-1">
+                    <h2 class="titulo-projeto">O Projeto</h2>
+                    <p class="p1">Com o "novo normal" causado pela pandemia dos últimos anos, mais empresa no mundo todo têm aberto oportunidades no modelo Home Office.
+                    Alinado a depreciação da moeda local, temos um alto
+                    índice de profissionais migrando para trabalhos em outros países.
+                    </p>
+                    <p class="p2">O projeto Netuno, idealizado pela Fasters, tem por objetivo reduzir os estresses causados por recrutamento e turn over a área de tecnologia , bem com gerar oportunidades de carreira para novos profissionais.</p>
+                </article>
+            </section>      
+    
+        </div>
+        <div class="conteudo3">
+            <div class="cont-3">
+                <div class="img-cont">
+                    
+                </div>
+                <section id="problema">
+                    <article id="art-2">
+                        <h2 class="titulo-art2">O Problema</h2>
+                        <p class="p1-art2">Falta de profissionais de TI no Mercado brasileiro: um problema que demanda atenção urgente.</p>
+                        <p class="p2-art2">Estima-se que atualmente tenhamos um déficit de 408 mil postos de trabalho, com perdas se acumulando na casa dos R$167 bilhões, de acordo com a Sortex, uma organização social voltada ao fomento da área de TI.</p>
+                        <p class="p3-art2">Um dos principais fatores dessa falta de profissionais é o êxodo de profissionais para o exterior.</p>
+                    </article>
+                </section>
+
+                
+            </div>
+            <div class="cards">
+                <div class="card-1">
+                        <h2>Oportunidade</h2>
+                        <p>Acreditamos que a combinação de interesse, dedicação e oportunidade pode causar um grande impacto nas pessoas, nas organizações e no mundo.</p>
+                </div>
+
+                <div class="card-2">
+                        <h2>Comunidade</h2>
+                        <p>Dentro de um grupo de pessoas mais experientes e acessíveis, a curva de aprendizado ocorre de forma mais rápida, fluída e eficiente.</p>
+                </div>
+
+                <div class="card-3">
+                        <h2>Experiencia Real</h2>
+                        <p>Entendemos que somente as experiências reais poderão trazer a bagagem que a teoria não o pode fazer.</p>
+                </div>
+            </div>
+                
+        </div>
+        <div id="jornada" class="conteudo4">
+            <h2 class="titulo-4">Sua Jornada</h2>
+
+            <div class="cards-jornada">
+               
+                <div class="inf-1">
+                    <img src="Pack Netuno/Assets_Netuno/icones/calendario.png" alt="calendario" class="icon" id="p1">
+                    <p class="pp-inf">Programas de 4 meses de duração, sendo 6 horas/dia.</p>
+                </div>
+                <div class="inf-2">
+                    <img src="Pack Netuno/Assets_Netuno/icones/medalha.png" alt="medalha" class="icon" id="p2">
+                    <p class="pp-inf">Do Zero ao Junior Promissor em 4 meses.</p>
+
+                </div>
+                <div class="inf-3">
+                    <img src="Pack Netuno/Assets_Netuno/icones/relogio.png" alt="relogio" class="icon" id="p3">
+                    <p class="pp-inf">640 horas de aplicação prática dos conceitos.</p>
+                </div>
+
+            </div>
+                <div class="cards-jornada-pt2">
+                    <div class="inf-4">
+                        <img src="Pack Netuno/Assets_Netuno/icones/home.png" alt="home" class="icon" id="p4">
+                        <p class="pp-inf">Mentoria individual e coletiva em padrão ágil.</p>
+                    </div>
+                    <div class="inf-5">
+                        <img src="Pack Netuno/Assets_Netuno/icones/group.png" alt="group" class="icon" id="p5">
+                        <p class="pp-inf">100% Home Office com plataforma de cursos online.</p>
+                    </div>
+                    <div class="inf-6">
+                        <img src="Pack Netuno/Assets_Netuno/icones/target.png" alt="target" class="icon" id="p6">
+                        <p class="pp-inf">Variedade de áreas detro da tecnologia.</p>
+                    </div>
+                </div>
+
+            <p class="processo-seletivo">Quero me cadastrar para o <a href="#cadastro" class="ancora-seletivo">Processo Seletivo</a></p>
+            <img src="Pack Netuno/Assets_Netuno/icones/enter.png" alt="enter" id="p7">
+            <div class="border"></div>
+        </div>
+
+        <div id="objetivos" class="conteudo5">
+            <h2 class="titulo-5">Objetivos</h2>
+            <div class="card-obj">
+                <div class="msg-1">
+                    <h2 class="tt-card">Otimizar</h2>
+                    <p  class="par-card">Otimizar todo processo de contratação chegando a contribuir com uma economia de 40% no processo de recrutamento.</p>
+                </div>
+                <div class="msg-2">
+                    <h2 class="tt-card">Gerar</h2>
+                    <p class="par-card">Gerar novas oportunidades de carreira para pessoas interessadas em ingressar na área ou migrar de outras áreas que esteja descontente.</p>
+                </div>
+                <div class="msg-3">
+                    <h2 class="tt-card">Filtrar</h2>
+                    <p class="par-card">Criar oportunidades brilhantes para profissionais que se destacarem junto a parceiros estratégicos de negócios. </p>
+                </div>
+            </div>
+            
+        </div>
+
+    </main>
+    <footer>
+        <div class="sessao-1">
+            <img src="Pack Netuno/Assets_Netuno/assets/logo+slogan.png" alt="slogan" class="logo-footer">
+
+            <div class="social">
+
+                <img src="Pack Netuno/Assets_Netuno/icones/fb.png" alt="facebook" class="fb">
+
+                <img src="Pack Netuno/Assets_Netuno/icones/ig.png" alt="instagram" class="ig">
+
+                <img src="Pack Netuno/Assets_Netuno/icones/in.png" alt="linkedin" class="in">
+
+            </div>
+
+            <p class="pp-footer">Netuno	&copy;2024 - Site desenvolvido por <a href="https://github.com/Francelinoz" class="autor" target="_blank">Miguel Francelino</a></p>
+        </div>
+        <div class="sessao-2">
+            <a href="#cadastro" class="ancora-footer">Processo Seletivo</a>
+        </div>
+        <div class="sessao-3">
+            <div class="links-1">
+
+                <a href="#projeto" class="ancora-f1">O Projeto</a>
+                <a href="#problema" class="ancora-f2">O Problema</a>
+                <a href="#jornada" class="ancora-f4">Sua Jornada</a>
+                <a href="#objetivos" class="ancora-f5">Objetivos</a>
+        
+            </div>
+            <div class="links-2">
+                <p>Contato</p>
+                <p>35 99212-1705</p>
+                <p>miguelsf806@gmail.com</p>
+            </div>
+
+        </div>
+        
+
+    </footer>
+    
+</body>
+</html>
