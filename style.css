@@ -172,6 +172,7 @@ input {
     height: 220px;
 
     color: var(--branco);
+
     
 }
 .check-box{
@@ -968,3 +969,82 @@ footer{
     font-weight: 200;
 }
 /* SESSÃO 2 */
+.sessao-2{
+    margin: 40px;
+}
+.ancora-footer{
+    text-decoration: none;
+    color: var(--preto);
+
+    border-radius: 8px;
+    padding: 20px;
+    background-color: var(--branco);
+
+    font-weight: 700;
+    border: 1px solid var(--azulLight);
+
+    transition: .6s;
+
+}
+.ancora-footer:hover{
+    box-shadow: inset 0px 0px 16px rgba(0, 0, 0, 0.493);
+
+
+}
+/* SESSÃO 3 */
+.sessao-3{
+    display: flex;
+
+}
+.links-1{
+    display:block;
+    width: 80px;
+
+
+    border: 1px solid rgba(180, 180, 180, 0.692);
+
+    border-bottom: transparent;
+    border-left: transparent;
+    border-top: transparent ;
+
+    height: 140px;
+
+    padding-right: 20px;
+    text-align: left;
+}
+/* links */
+.ancora-f1{
+    text-decoration: none;
+    color: var(--branco);
+    margin-bottom: 20px;
+}
+.ancora-f2{
+    text-decoration: none;
+    color: var(--branco);
+    margin-bottom: 20px;
+}
+
+.ancora-f3{
+    text-decoration: none;
+    color: var(--branco);
+    margin-bottom: 20px;
+}
+
+.ancora-f4{
+    text-decoration: none;
+    color: var(--branco);
+    margin-bottom: 20px;
+}
+
+.ancora-f5{
+    text-decoration: none;
+    color: var(--branco);
+}
+/*********************/
+.links-2{
+    margin-left: 20px;
+
+}
+.links-2 > h3{
+    font-weight: 700;
+}
