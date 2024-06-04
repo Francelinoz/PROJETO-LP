@@ -12,6 +12,7 @@
     font-family: "Noto Sans", sans-serif;
     font-optical-sizing: auto;
     font-weight: normal;
+   
     
 }
 html{
@@ -161,7 +162,90 @@ input {
     top: 480px;
     left: 1132px;
 }
+.check-box-flex{
+    display: inline-block;
+    
+  }
 
+  .form-check-input{
+    position: relative;
+    cursor: pointer;
+    margin-bottom: 25px;
+  }
+  .form-check-input-2{
+    position: relative;
+    cursor: pointer;
+    margin-bottom: 10px;
+    
+  }
+  
+  .form-check-input:before {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 23px;
+    height: 12px;
+    top: -1px;
+    left: -7px;
+    padding: 2px;
+    margin-bottom: 10px;
+    border-radius: 6px;
+    box-shadow: 0px 0px 2px var(--azulLight);
+    background-color: #2196F3;
+    
+  }
+  .form-check-input-2::before{
+    content: "";
+    display: block;
+    position: absolute;
+    width: 23px;
+    height: 23px;
+    top: 8px;
+    left: -4px;
+    padding: 2px;
+    margin-bottom: 10px;
+    box-shadow: 0px 0px 2px var(--azulLight);
+    border-radius: 8px;
+    background-color: #2196F3;
+  }
+  .form-check-input-2:checked:after {
+    content: "";
+    display: block;
+    width: 5px;
+    height: 10px;
+    border: solid rgb(255, 255, 255);
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+    position: absolute;
+    top: 12px;
+    left: 6px;
+    
+}
+  
+ .form-check-input:checked:after {
+    content: "";
+
+    display: block;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+    position: absolute;
+    top: -1px;
+    left: 3px;
+  }
+  span{
+    margin: 0px 15px;
+  }
+.form-check-label{
+    text-align: left;
+    margin-right: 200px;
+}
 .form-check-box{
     background-color: var(--azul);
 
@@ -181,6 +265,8 @@ input {
 
     display:flex ;
 
+    margin-bottom: 6px;
+
 }
 #inlineCheckbox1 {
     content: '';
@@ -189,7 +275,7 @@ input {
     height: 1em;
     border-radius: 6px;
 
-    margin-right: 5px;
+    margin-right: px;
     border: 2px solid gray;
     margin-bottom: -2px;
     width: 25px;
