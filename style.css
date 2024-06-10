@@ -1290,7 +1290,7 @@ footer{
     /* icons form */
     
     .icon-1{
-        position: absolute;
+        position:absolute;
         content: url('../PROJETO-LP/Pack Netuno/Assets_Netuno/icones/user.png');
     
         top: 418px;
